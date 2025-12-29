@@ -1,7 +1,7 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { SalesOrder } from "../types";
-import { PRODUCT_CATALOG } from "../constants";
+import { SalesOrder } from "../types.ts";
+import { PRODUCT_CATALOG } from "../constants.ts";
 
 const productNames = PRODUCT_CATALOG.join(", ");
 

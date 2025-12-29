@@ -1,6 +1,7 @@
+
 import React, { useState } from 'react';
-import { parseOrderFromText } from '../services/geminiService';
-import { SalesOrder } from '../types';
+import { parseOrderFromText } from '../services/geminiService.ts';
+import { SalesOrder } from '../types.ts';
 import { Sparkles, ArrowRight, Loader2, X } from 'lucide-react';
 
 interface MagicParserProps {

@@ -8,11 +8,11 @@ import {
   Search, FileSpreadsheet, Download, Eye, EyeOff, Languages, Siren, Clock, 
   RefreshCw, Upload, Filter, CircleCheck, Sparkles, ShieldAlert, Camera, Image as LucideImage, Maximize2
 } from 'lucide-react';
-import { PRODUCT_CATALOG, CUSTOMER_LIST, WAREHOUSES, DRIVERS_FLEET, DELIVERY_SHIFTS } from './constants';
-import { OrderItem, SalesOrder, OrderStatus, HistoryItem, Role, Shipment, EmergencyReport, UserProfile } from './types';
-import { getUserByPin } from './users';
-import { TRANSLATIONS } from './translations';
-import { MagicParser } from './components/MagicParser';
+import { PRODUCT_CATALOG, CUSTOMER_LIST, WAREHOUSES, DRIVERS_FLEET, DELIVERY_SHIFTS } from './constants.ts';
+import { OrderItem, SalesOrder, OrderStatus, HistoryItem, Role, Shipment, EmergencyReport, UserProfile } from './types.ts';
+import { getUserByPin } from './users.ts';
+import { TRANSLATIONS } from './translations.ts';
+import { MagicParser } from './components/MagicParser.tsx';
 
 // --- TYPES & INTERFACES ---
 

@@ -709,7 +709,7 @@ export default function App() {
   const [fullSizeImage, setFullSizeImage] = useState<string | null>(null);
 
   const [order, setOrder] = useState<SalesOrder>({
-    customerName: '', areaLocation: '', orderDate: new Date().toISOString().split('T')[0], receivingDate: '', deliveryShift: 'أول نقلة', deliveryType: 'Own Cars', items: [], overallNotes: '', serialNumber: generateSerialNumber(), adminEmergencyNote: ''
+    customerName: '', areaLocation: '', orderDate: new Date().toISOString().split('T')[0], receivingDate: '', deliveryShift: 'أول نقلة', deliveryType: 'سيارات الشركة', items: [], overallNotes: '', serialNumber: generateSerialNumber(), adminEmergencyNote: ''
   });
   const [editingId, setEditingId] = useState<string | null>(null);
   const [submissionStatus, setSubmissionStatus] = useState<'idle' | 'submitting' | 'success'>('idle');

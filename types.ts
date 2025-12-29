@@ -58,7 +58,7 @@ export interface SalesOrder {
   orderDate: string;
   receivingDate: string; // New required field
   deliveryShift: 'أول نقلة' | 'ثانى نقلة' | 'باليل'; // New dropdown field
-  deliveryType?: 'Outsource' | 'Own Cars'; // New field for delivery method
+  deliveryType?: 'تحميل خارجى' | 'سيارات الشركة'; // New field for delivery method
   serialNumber?: string;
   items: OrderItem[];
   overallNotes?: string;

@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Test IFCG sales Order",
+  "description": "A streamlined digital form for Sales Supervisors to manually enter sales orders. Data is structured for direct submission to SharePoint workflows (Finance Approval -> Warehouse -> Logistics).",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
